@@ -1,0 +1,49 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(119, 169, 147);
+}
+
+h1 {
+    height: auto;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 8px;
+    border: dashed 2px black;
+}
+
+#container {
+    border: solid 10px #7d5f38;
+    background-color: #8e7554;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+}
+
+#checkerboard {
+    height: auto;
+    width: auto;
+    display: flexbox;
+    padding-top: 14px;
+}
+.row {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.black {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.white {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
